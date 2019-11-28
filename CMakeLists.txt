@@ -6,7 +6,8 @@ add_compile_options(
 
 add_darling_executable(dsmemberutil dsmbrutil/dsmbrutil.c)
 
-install(TARGETS dsmemberutil DESTINATION libexec/darling/usr/bin)
+# Disabling in favor of stub
+#install(TARGETS dsmemberutil DESTINATION libexec/darling/usr/bin)
 
 install(FILES
 	dirt/dirt.1
