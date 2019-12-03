@@ -4,7 +4,7 @@ add_compile_options(
 	-nostdinc
 )
 
-add_darling_executable(dsmemberutil dsmbrutil/dsmbrutil.c)
+#add_darling_executable(dsmemberutil dsmbrutil/dsmbrutil.c)
 
 # Disabling in favor of stub
 #install(TARGETS dsmemberutil DESTINATION libexec/darling/usr/bin)
